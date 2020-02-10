@@ -14,7 +14,7 @@ router.get("/", function(req, res) {
 });
 
 router.post("/", function(req, res) {
-  res.send("Got a POST request");
+  res.send("Got a POST request USERS");
 });
 
 module.exports = router;
