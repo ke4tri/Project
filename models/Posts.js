@@ -7,8 +7,7 @@ const PostSchema = new Schema({
     ref: "users"
   },
   text: {
-    type: String,
-    required: true
+    type: String
   },
   name: {
     type: String
